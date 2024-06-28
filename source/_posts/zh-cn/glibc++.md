@@ -31,11 +31,11 @@ node: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by nod
 
 下面介绍如何在 centos7 系统升级 glibc。
 
-> ⚠️ 注意：升级 glibc 版本有风险导致系统崩溃，升级前请先备份好服务器重要资料。
->
-> glibc 有些版本是不带前面连续的版本安装包的，这样有可能导致在使用的时候引用前面版本的代码直接报错，因此跨版本升级有风险。
->
-> glibc 2.31 亲测是携带了连续的版本安装包，因此直接从 2.17 升级到 2.31 没有什么风险，但建议还是自己先找开发机测试一下，同时也要注意备份。
+{% note warning modern %}
+升级 glibc 版本有风险导致系统崩溃，升级前请先备份好服务器重要资料。
+glibc 有些版本是不带前面连续的版本安装包的，这样有可能导致在使用的时候引用前面版本的代码直接报错，因此跨版本升级有风险。
+glibc 2.31 亲测是携带了连续的版本安装包，因此直接从 2.17 升级到 2.31 没有什么风险，但建议还是自己先找开发机测试一下，同时也要注意备份。
+{% endnote %}
 
 ## 安装过程
 
@@ -79,16 +79,12 @@ make -j6
 make install
 ```
 
-下载安装包
-![](img4.png)
+下载 gcc-9.0.3 安装包，然后使用命令 `./contrib/download_prerequisites` 安装升级 gcc 所需的依赖。
 
-安装升级 gcc 所需的依赖，该命令会自动下载。
-
-如果无法下载，可以到下载地址 https://gcc.gnu.org/pub/gcc/infrastructure/ 手动下载这四个文件到目录 /opt/gcc-9.3.0 下
+如果无法升级依赖，可以到下载地址 https://gcc.gnu.org/pub/gcc/infrastructure/ 手动下载这四个文件到目录/opt/gcc-9.3.0 下
 ![](img5.png)
 
-查看服务器有多少内核，等下用于编译。多内核意味着可以开多线程编译，速度会更快。
-![](img6.png)
+使用命令 `cat /proc/cpuinfo| grep "processor"| wc -l` 查看服务器有多少内核，等下用于编译。多内核意味着可以开多线程编译，速度会更快。
 
 开始配置并编译新版 gcc
 ![](img7.png)
