@@ -2,14 +2,11 @@
 title: Centos7 升级 glibc2.31
 slug: centos7+glibc
 cover: /medias/ast.jpeg
-top_image:
+top_image: 
 date: 2024-05-30 15:03:25
 categories:
-  - Centos
+  - 后端开发
 tags:
-  - Centos
-  - linux
-  - nodejs
   - glibc
 typora-root-url: ./glibc++
 ---
@@ -51,10 +48,10 @@ ll /lib64/libc.so*
 CentOS Linux release 7.2.1511 (Core)
 
 并且可以看到，目前 GLIBC 最新版本是 2.17
-![](img1.png)
+![](source/_posts/zh-cn/glibc++/img1.png)
 
 同时可以发现，当前 libc.so 是指向版本 2.17
-![](img3.png)
+![](source/_posts/zh-cn/glibc++/img3.png)
 
 ### 2、源码编译升级 gcc9.3.0
 
@@ -82,7 +79,7 @@ make install
 下载 gcc-9.0.3 安装包，然后使用命令 `./contrib/download_prerequisites` 安装升级 gcc 所需的依赖。
 
 如果无法升级依赖，可以到下载地址 https://gcc.gnu.org/pub/gcc/infrastructure/ 手动下载这四个文件到目录/opt/gcc-9.3.0 下
-![](img5.png)
+![](source/_posts/zh-cn/glibc++/img5.png)
 
 使用命令 `cat /proc/cpuinfo| grep "processor"| wc -l` 查看服务器有多少内核，等下用于编译。多内核意味着可以开多线程编译，速度会更快。
 
@@ -124,7 +121,7 @@ make install
 ```
 
 下载解压，并配置编译
-![](img11.png)
+![](source/_posts/zh-cn/glibc++/img11.png)
 
 在 root 下执行 `make && make install`
 ![](img12.png)
