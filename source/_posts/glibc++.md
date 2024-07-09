@@ -1,9 +1,13 @@
 ---
 title: Centos7 升级 glibc2.31
+date: 2024-05-30 15:03:25
+updated:
+keywords:
 slug: centos7+glibc
 cover: /medias/ast.jpeg
-top_image: 
-date: 2024-05-30 15:03:25
+top_image:
+comments: false
+maincolor:
 categories:
   - 后端开发
 tags:
@@ -48,10 +52,10 @@ ll /lib64/libc.so*
 CentOS Linux release 7.2.1511 (Core)
 
 并且可以看到，目前 GLIBC 最新版本是 2.17
-![](source/_posts/zh-cn/glibc++/img1.png)
+![](img1.png)
 
 同时可以发现，当前 libc.so 是指向版本 2.17
-![](source/_posts/zh-cn/glibc++/img3.png)
+![](img3.png)
 
 ### 2、源码编译升级 gcc9.3.0
 
