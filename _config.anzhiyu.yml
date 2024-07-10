@@ -192,7 +192,7 @@ post_meta:
 
 # 主色调相关配置
 mainTone:
-  enable: true # true or false 文章是否启用获取图片主色调
+  enable: false # true or false 文章是否启用获取图片主色调
   mode: api # cdn/api/both cdn模式为图片url+imageAve参数获取主色调，api模式为请求API获取主色调，both模式会先请求cdn参数，无法获取的情况下将请求API获取，可以在文章内配置main_color: '#3e5658'，使用十六进制颜色，则不会请求both/cdn/api获取主色调，而是直接使用配置的颜色
   # 项目地址：https://github.com/anzhiyu-c/img2color-go
   api: https://img2color-go.vercel.app/api?img= # mode为api时可填写
@@ -244,7 +244,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: true
+  enable: false
   QR_code:
     - img:
       link:
@@ -300,7 +300,8 @@ noticeOutdate:
 # https://github.com/overtrue/share.js
 sharejs:
   enable: true
-  sites: facebook,twitter,wechat,weibo,qq
+  # sites: facebook,twitter,wechat,weibo,qq
+  sites: wechat,qq
 
 # AddToAny
 # https://www.addtoany.com/
@@ -415,16 +416,16 @@ footer:
     since: 2023
   custom_text:
   runtime:
-    enable: true
-    launch_time: 04/01/2021 00:00:00 # 网站上线时间
-    work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
-    work_description: 距离月入25k也就还差一个大佬带我~
-    offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
-    offduty_description: 下班了就该开开心心的玩耍，嘿嘿~
+    enable: false
+    launch_time: 06/01/2024 00:00:00 # 网站上线时间
+    # work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
+    # work_description: 距离月入25k也就还差一个大佬带我~
+    # offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
+    # offduty_description: 下班了就该开开心心的玩耍，嘿嘿~
   # 徽标部分配置项 https://shields.io/
   # https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
   bdageitem:
-    enable: true
+    enable: false
     list:
       - link: https://hexo.io/ #徽标指向网站链接
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
@@ -442,11 +443,11 @@ footer:
       #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
       #   message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
   socialBar:
-    enable: true
+    enable: false
     centerImg:
     left:
       - title: email
-        link: mailto:anzhiyu-c@qq.com
+        link: 609100279@qq.com
         icon: anzhiyu-icon-envelope
       # - title: 微博
       #   link: https://weibo.com/u/6378063631
@@ -459,7 +460,7 @@ footer:
       #   icon: anzhiyu-icon-rss
     right:
       - title: Github
-        link: https://github.com/anzhiyu-c
+        link: https://github.com/Jundong-chan
         icon: anzhiyu-icon-github
       # - title: Bilibili
       #   link: https://space.bilibili.com/372204786
@@ -471,7 +472,7 @@ footer:
       #   link: /copyright
       #   icon: anzhiyu-icon-copyright-line
   list:
-    enable: true
+    enable: false
     randomFriends: 3
     project:
       - title: 服务
@@ -520,11 +521,11 @@ footer:
       # - link: https://beian.miit.gov.cn/
       #   text: 湘ICP备-xxxxxxx号
     subTitle:
-      enable: false
+      enable: true
       # Typewriter Effect (打字效果)
       effect: true
       # Effect Speed Options (打字效果速度参数)
-      startDelay: 300 # time before typing starts in milliseconds
+      startDelay: 400 # time before typing starts in milliseconds
       typeSpeed: 150 # type speed in milliseconds
       backSpeed: 50 # backspacing speed in milliseconds
       # loop (循环打字)
@@ -535,7 +536,7 @@ footer:
       # source: 2  调用一句网（简体） http://yijuzhan.com/
       # source: 3  调用今日诗词（简体） https://www.jinrishici.com/
       # subtitle 会先显示 source , 再显示 sub 的内容
-      source: 1
+      source: 2
       # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
       sub:
         # - 生活明朗&#44; 万物可爱&#44; 人间值得&#44; 未来可期.
@@ -845,7 +846,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 01/06/2024 00:00:00
+  publish_date: 2024/06/01 00:00:00
 
 # Console - Newest Comments
 newest_comments:
