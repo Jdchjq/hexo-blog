@@ -9,7 +9,7 @@ top_image:
 comments: false
 maincolor:
 categories:
-  - ai 工具
+  - ai 技术
 tags:
   - copilot
 typora-root-url: ./enableCopilot

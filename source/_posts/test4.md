@@ -9,7 +9,7 @@ top_image:
 comments: false
 maincolor:
 categories:
-  - 后端开发
+  - 日常开发问题
 tags:
   - glibc
 typora-root-url: ./test4
