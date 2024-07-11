@@ -1,4 +1,4 @@
 [submodule "themes/anzhiyu"]
 	path = themes/anzhiyu
-	url = https://github.com/Jdchjq/hexo-theme-anzhiyu
+	url = git@github.com:Jdchjq/hexo-theme-anzhiyu
 	branch = main
