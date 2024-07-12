@@ -9,7 +9,7 @@ top_image:
 comments: false
 maincolor:
 categories:
-  - 日常开发
+  - 日常开发问题
 tags:
   - vscode
 typora-root-url: ./vscodessh
