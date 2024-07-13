@@ -1066,9 +1066,9 @@ home_top:
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
     tips: 最新文章
-    title: '解决Copilot 登录问题 '
+    title: '解决Copilot 登录无限循环问题 '
     image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
-    link: http://localhost:4000/undefined/ai-技术/enableCopilot.html
+    link: https://blog.pickch.com/zh-cn/ai-%E6%8A%80%E6%9C%AF/enableCopilot.html
 
 # 朋友圈配置
 friends_vue:
