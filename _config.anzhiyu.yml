@@ -418,7 +418,7 @@ footer:
   custom_text:
   runtime:
     enable: false
-    launch_time: 06/01/2024 00:00:00 # 网站上线时间
+    launch_time: 07/15/2024 00:00:00 # 网站上线时间
     # work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
     # work_description: 距离月入25k也就还差一个大佬带我~
     # offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
@@ -461,7 +461,7 @@ footer:
       #   icon: anzhiyu-icon-rss
     right:
       - title: Github
-        link: https://github.com/Jundong-chan
+        link: https://github.com/Jdchjq
         icon: anzhiyu-icon-github
       # - title: Bilibili
       #   link: https://space.bilibili.com/372204786
