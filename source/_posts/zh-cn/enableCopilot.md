@@ -1,10 +1,10 @@
 ---
 title: 解决 Copilot 登录无限循环的问题
-date: 2024-07-03
+date: 2024-08-11
 updated:
 keywords:
 slug: enablecopilot
-cover: /medias/ast.jpeg
+cover: /image/useCopilot.png
 top_image:
 comments: false
 maincolor:

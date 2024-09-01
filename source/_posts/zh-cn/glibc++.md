@@ -1,10 +1,10 @@
 ---
 title: Centos7 升级 glibc2.31
-date: 2024-05-30 15:03:25
+date: 2024-08-10 15:03:25
 updated:
 keywords:
 slug: centos7+glibc
-cover: /medias/ast.jpeg
+cover: /image/glibc++.png
 top_image:
 comments: false
 maincolor:

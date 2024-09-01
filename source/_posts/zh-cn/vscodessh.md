@@ -1,6 +1,6 @@
 ---
 title: vscode ssh远程的github权限问题
-date: 2024-07-03
+date: 2024-08-12
 updated:
 keywords:
 slug: vscodessh
@@ -74,8 +74,6 @@ ssh-add
 ssh <user>@<ip> -T git@github.com
 ```
 
-
-
 # ssh key 失效问题
 
 前面提到的 ssh key 配置远程使用无需密钥的方法，有时候在 vscode 连接远程主机进行开发的时候，会突然失效，但是使用终端登录远程使用 git 又是正常的。
@@ -110,6 +108,3 @@ ssh <user>@<ip> -T git@github.com
 这个方式是参考 github 上的[讨论](https://github.com/microsoft/vscode/issues/168202#issuecomment-2147925134) 得到的，vscode 的 windows 版本是 1.89.0.0，亲测可以正常解决突发状况。
 
 同时可以看到这个 github issue 还是 open 状态的，希望 vscode 可以尽快解决这个 bug
-
-
-
