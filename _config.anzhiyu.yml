@@ -1066,9 +1066,9 @@ home_top:
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
     tips: 最新文章
-    title: '如何训练一个AI模型'
+    title: 'es knn 最近邻搜索的实践'
     image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
-    link: https://blog.pickch.com/zh-cn/ai-技术/trainmodel.html
+    link: https://blog.pickch.com/zh-cn/ai-技术/esknn.html
 
 # 朋友圈配置
 friends_vue:
