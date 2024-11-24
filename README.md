@@ -24,6 +24,7 @@
 
 1、执行 `hexo generate` 对本地文件生成静态文件，生成的目标目录是 public。
 2、执行 `hexo deploy` 执行部署脚本，当运行成功后，线上博客就更新到最新了。
+3、如果线上博客没有更新，执行`hexo clean` 再执行 `hexo generate` 看下能否重新生成最新的静态文件，再继续 delpoy
 
 > 自动发布参考了 Heo 的[部署教程](https://blog.zhheo.com/p/49b7a68d.html)
 
