@@ -57,7 +57,7 @@ code_word_wrap: false
 # copyright: Add the copyright information after copied content (複制的内容后面加上版权信息)
 # copy: enable 复制后弹窗提示版权信息
 copy:
-  enable: false
+  enable: true
   copyright:
     enable: false
     limit_count: 50
@@ -729,7 +729,7 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
-  global-font-size: 19px
+  global-font-size: 15px
   code-font-size:
   font-family:
   code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
@@ -1042,7 +1042,7 @@ home_top:
   timemode: date #date/updated
   title: 分享技术与生活
   subTitle: 向往自由
-  siteText: 
+  siteText:
   category:
     - name: 后端技术
       path: /categories/后端开发/

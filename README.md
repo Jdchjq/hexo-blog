@@ -2,6 +2,35 @@
 
 这是我的博客，基于 hexo 的 anzhiyu 主题构建的，原始主题来自于一个北京的产品设计大佬[HEO](https://blog.zhheo.com/)自己搭建的闭源主题。
 
+# 安装
+
+## 安装 nodejs
+
+```
+# Download and install nvm:
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+# in lieu of restarting the shell
+\. "$HOME/.nvm/nvm.sh"
+# Download and install Node.js:
+nvm install 22
+# Verify the Node.js version:
+node -v # Should print "v22.17.0".
+nvm current # Should print "v22.17.0".
+npm install -g yarn
+```
+
+## 安装依赖
+
+```
+yarn install
+```
+
+## 本地运行
+
+```
+yarn build && yarn server
+```
+
 # 使用
 
 ## 写文章

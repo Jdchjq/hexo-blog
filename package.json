@@ -9,7 +9,7 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "7.2.0"
+    "version": "7.3.0"
   },
   "dependencies": {
     "hexo": "^7.3.0",
@@ -25,5 +25,9 @@
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:Jdchjq/hexo-blog.git",
+  "author": "chenjundong <chenjundong>",
+  "license": "MIT"
 }
