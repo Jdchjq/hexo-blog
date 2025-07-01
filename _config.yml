@@ -57,6 +57,7 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
+  theme: prism-tomorrow
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -64,7 +65,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 8
   order_by: -date
 
 # Category & Tag

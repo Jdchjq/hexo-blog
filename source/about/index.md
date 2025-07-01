@@ -1,10 +1,11 @@
 ---
 title: 关于
 date: 2024-06-27 16:12:20
-layout: 'about'
-type: 'about'
-top_img:
+aside: false
+top_img: false
+background: '#f8f9fe'
 comments: false
+type: 'about'
 ---
 
 搭建博客的想法持续了一段时间，博客主题却一直定不下来，选择宗旨是要看起来像博客，尝试了从 hugo PaperMod 到 typecho 的 Joe 主题，从设计上看还是差点意思。

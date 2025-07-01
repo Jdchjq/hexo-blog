@@ -3,6 +3,7 @@ title: 如何训练一个模型
 date: 2024-08-28 22:50:31
 updated:
 keywords: ['train', 'model']
+slug: trainmodel
 cover: /image/howtrain.png
 top_image:
 comments: false
